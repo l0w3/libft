@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alrodri2 <alrodri2@student.42barcel>       +#+  +:+       +#+        */
+/*   By: alrodri2 <alrodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 14:08:14 by alrodri2          #+#    #+#             */
-/*   Updated: 2022/10/13 14:08:18 by alrodri2         ###   ########.fr       */
+/*   Updated: 2023/10/09 15:42:27 by alrodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 
 static int	ft_cwords(const char *str, char c)
 {

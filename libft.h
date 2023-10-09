@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alrodri2 <alrodri2@student.42barcel>       +#+  +:+       +#+        */
+/*   By: alrodri2 <alrodri2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/21 18:47:21 by alrodri2          #+#    #+#             */
-/*   Updated: 2022/10/13 16:25:40 by alrodri2         ###   ########.fr       */
+/*   Updated: 2023/10/09 15:41:49 by alrodri2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,4 +49,5 @@ char	*ft_strtrim(const char *s, const char *set);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 void	*ft_memmove(void *dst, const void *src, size_t len);
+int		ft_numlen(int nbr);
 #endif
